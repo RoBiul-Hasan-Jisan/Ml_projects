@@ -12,7 +12,7 @@ st.title("Simple Linear Regression: Sales Prediction from TV Advertising")
 # Load dataset
 @st.cache_data
 def load_data():
-    dataset = pd.read_csv(r'D:\ml_lern\advertising.csv')
+    dataset = pd.read_csv(dataset = pd.read_csv('../data/advertising.csv'))
     dataset = dataset.dropna()
     return dataset
 

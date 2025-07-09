@@ -10,7 +10,7 @@ st.title("House Price Prediction App with Dynamic Feature Selection")
 
 @st.cache_data
 def load_data():
-    dataset = pd.read_csv(r'D:\ml_lern\HousingData.csv')
+    dataset = pd.read_csv(dataset = pd.read_csv('../data/HousingData.csv'))
     dataset = dataset.dropna()
     return dataset
 
